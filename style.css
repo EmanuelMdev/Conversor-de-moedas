@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+ 
+  h1 {
+    color: white;
+    font-family: Cambria;
+    position: absolute;
+    height: 410px;
+    left: 0;
+    z-index: 2;
+}
+  
+  .bar {
+    background-color: rgb(95, 158, 160);
+    height:70px;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.header {
+    position: absolute;
+    height: 383px;
+    right: 170px;
+    margin-left: 10px;
+    z-index: 2;
+}
+.about-button {
+    background-color: rgb(98, 158, 160);
+    border: 2px solid rgb(98, 158, 160);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .dropdown-content {
+    position: absolute;
+    background-color: rgb(98, 158, 160);
+    border: 2px solid rgb(98, 158, 160);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
